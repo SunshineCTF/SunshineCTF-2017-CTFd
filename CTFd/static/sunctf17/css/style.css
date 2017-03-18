@@ -229,8 +229,8 @@ table{
 }
 
 .jumbotron {
-    background-color: #DE282E;
-    color: #FFF;
+    background-color: transparent;
+    color: #000;
     padding: 0px 0px 25px;
 }
 
