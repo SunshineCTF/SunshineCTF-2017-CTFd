@@ -3,6 +3,10 @@
   font-family: 'Soviet';
   font-style: normal;
   font-weight: 400;
-  src: 
+  src: url('../../fonts/soviet/Soviet2.ttf') format('truetype'); /* Safari, Android, iOS */
+  src: local('Soviet2'), local('Soviet2'),
+       url('../../fonts/soviet/rSoviet2.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/soviet/Soviet2.woff') format('woff'), /* Modern Browsers */
        url('../../fonts/soviet/Soviet2.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/soviet/Soviet2.svg') format('svg'); /* Legacy iOS */
 }
