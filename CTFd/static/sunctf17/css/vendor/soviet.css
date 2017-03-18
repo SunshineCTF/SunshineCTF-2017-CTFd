@@ -1,0 +1,8 @@
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Soviet';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+       url('../../fonts/soviet/Soviet2.ttf') format('truetype'), /* Safari, Android, iOS */
+}
