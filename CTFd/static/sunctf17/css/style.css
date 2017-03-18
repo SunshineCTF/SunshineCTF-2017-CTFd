@@ -4,6 +4,21 @@ html, body, .container {
     font-family: 'soviet', sans-serif;
 }
 
+body {
+
+    background-image: url("../img/sunctf2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-size: 100% 100%;
+    background-color: #f5dea6;
+    /*background-color: #fbeecd;*/
+}
+
+.challenge-button h5 {
+    font-family: 'lato', sans-serif;
+}
+
 h1, h2 {
     font-family: 'soviet', sans-serif;
     font-weight: 500;
@@ -172,7 +187,7 @@ table{
 }
 
 .theme-background {
-    background-color: #545454 !important;
+    background-color: #58452e !important;
 
 }
 
