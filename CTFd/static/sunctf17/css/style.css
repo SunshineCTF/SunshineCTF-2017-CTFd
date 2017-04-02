@@ -90,10 +90,20 @@ a {
 }
 
 #login-container {
-    padding-left: 70px;
-    padding-right: 70px;
+    background: #f5dea6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
 }
 
+}
+
+#login-container a {
+    color: rgba(141, 46, 31, 0.5);
+}
 #chal > form{
     width: 400px;
     margin: 0 auto;
@@ -192,7 +202,7 @@ table{
 }
 
 .solved-challenge {
-    background-color: #8EDC9D !important;
+    opacity: .4;
 }
 
 .panel-theme {
@@ -226,6 +236,10 @@ table{
     background: none repeat scroll 0% 0% #DE282E;
     border: medium none;
     margin-bottom: 0px;
+
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
 }
 
 .jumbotron {
@@ -284,7 +298,7 @@ table{
     border: none;
     border-radius: 0;
     background: #f0f0f0;
-    color: #aaa;
+    color: #6f5f48;
     font-weight: 400;
     font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-appearance: none; /* for box shadows to show on iOS */
@@ -351,7 +365,7 @@ table{
 }
 
 .label-content {
-    color: #8B8C8B;
+    color: #6f5f48;
     padding: 0.25em 0;
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -365,7 +379,7 @@ table{
     left: 0;
     height: 100%;
     width: 100%;
-    color: #a3d39c;
+    color: #6f5f48;
     padding: 0.25em 0;
     letter-spacing: 1px;
     font-size: 0.85em;
@@ -374,7 +388,7 @@ table{
 .input-field:focus + .input-field,
 .input--filled .input-field {
     background-color: transparent;
-    border-color: #a3d39c;
+    border-color: #f76d2a;
 }
 
 .input--hide {
@@ -390,6 +404,10 @@ table{
     margin: 0px;
 }
 
+/* forgot my password*/
+.done-row a {
+    color: rgba(129, 61, 33, 0.44);
+}
 /* END OF INPUT CSS */
 
 /* BACKGROUND CSS */

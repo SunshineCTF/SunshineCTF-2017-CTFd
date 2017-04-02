@@ -153,7 +153,7 @@ function marksolves(cb) {
         for (var i = solves['solves'].length - 1; i >= 0; i--) {
             var id = solves['solves'][i].chalid;
             $('button[value="' + id + '"]').removeClass('theme-background');
-            $('button[value="' + id + '"]').addClass('solved-challenge');
+            $('button[value="' + id + '"]').parent().addClass('solved-challenge');
         };
         if (cb) {
             cb();
