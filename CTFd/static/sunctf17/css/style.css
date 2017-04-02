@@ -251,6 +251,16 @@ table{
 .jumbotron.home {
     text-align: center;
     margin-bottom: 0px;
+    font-size: 48px;
+    /* initally hide title elment,see below*/
+    opacity: 0;
+    -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1); 
+}
+
+/* the scramble.js will apply this once the page has loaded*/
+.jumbotron.home.shown {
+    opacity: 1;
 }
 
 .home h1 {
