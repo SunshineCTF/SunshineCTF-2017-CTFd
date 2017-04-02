@@ -2,6 +2,7 @@
 html, body, .container {
     height: 100% !important;
     font-family: 'soviet', sans-serif;
+    letter-spacing: .05em;
 }
 
 body {
@@ -391,3 +392,13 @@ table{
 }
 
 /* END OF INPUT CSS */
+
+/* BACKGROUND CSS */
+#scoreboard, #teamsboard {
+    background-color: #f5dea6;
+
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+}
+
