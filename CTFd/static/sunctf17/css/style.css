@@ -16,6 +16,27 @@ body {
     /*background-color: #fbeecd;*/
 }
 
+
+@-webkit-keyframes explode {
+  50% {
+    background-image: url("../img/putin0.jpg");
+  }
+  100% {
+    background-image: url("../img/sunctf2.png");
+  }
+}
+
+ body.explode {
+    -webkit-animation-name: explode;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1; 
+    -webkit-animation-direction: linear /*normal; /* not "linear" */
+    -webkit-animation-fill-mode:forwards;
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+    /*-webkit-animation-timing-function:steps(2, end);*/
+}
+
 .challenge-button h5 {
     font-family: 'lato', sans-serif;
 }

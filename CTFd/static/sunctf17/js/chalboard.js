@@ -121,6 +121,14 @@ function submitkey(chal, key, nonce) {
             answer_input.val("");
             answer_input.removeClass("wrong");
             answer_input.addClass("correct");
+
+            //Background explosion
+            $('body').addClass("explode");
+            //Clear class after 3s to prepare for next correct chal
+            setTimeout(function () {
+               $('body').removeClass("explode");
+            }, 3000);
+
         }
         else if (result.status == 2){ // Challenge already solved
             result_notification.addClass('alert alert-info alert-dismissable');
