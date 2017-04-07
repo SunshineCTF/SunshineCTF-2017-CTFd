@@ -450,3 +450,30 @@ table{
     box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
 }
 
+/* Sponsor water mark*/
+#watermark {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* For somereason bootstrap is making this a pagination link
+    so disable all links except the ones we want. */
+#watermark a:not(.sponsor) {
+    color: white !important;
+    cursor: default;
+    pointer-events: none;
+}
+#watermark div {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(65, 54, 54, 0.6);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(65, 54, 54, 0.6);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(65, 54, 54, 0.6);
+    box-shadow: 0px 0px 20px 3px rgba(65, 54, 54, 0.6);
+}
+
