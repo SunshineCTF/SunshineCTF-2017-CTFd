@@ -442,7 +442,7 @@ table{
 /* END OF INPUT CSS */
 
 /* BACKGROUND CSS */
-#scoreboard, #teamsboard {
+.table {
     background-color: #f5dea6;
 
     -webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
