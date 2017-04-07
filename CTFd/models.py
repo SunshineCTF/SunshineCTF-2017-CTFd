@@ -177,7 +177,7 @@ class Teams(db.Model):
         try:
             i = teams.index((self.id,)) + 1
             k = i % 10
-            return "%d%s" % (i, "tsnrhtdd"[(i / 10 % 10 != 1) * (k < 4) * k::4])
+            return "%d %s" % (i, "tsnrhtdd"[(i / 10 % 10 != 1) * (k < 4) * k::4])
         except ValueError:
             return 0
 
